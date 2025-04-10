@@ -4,92 +4,172 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="h-screen w-screen overflow-hidden">
-    <div
-      id="win-model"
-      class="w-screen hidden h-screen bg-[rgba(51,0,255,0.73)] absolute top-0 left-0 z-[100] bg-cover bg-bottom"
-    >
-      <div
-        style="
-          background-image: url(https://media.tenor.com/9uoVWxfg764AAAAM/candy-day-lolli.gif);
-        "
-        class="w-[80%] h-[80%] m-auto mt-[5%] flex justify-center items-center"
+  <body class="">
+    <main>
+      <section
+        class="popular-menu-cards grid grid-cols-[repeat(auto-fit,_minmax(256px,_1fr))] gap-[47px] max-w-[1200px] mx-auto px-4"
       >
         <div
-          class="max-w-[300px] w-full p-10 bg-white h-[200px] flex justify-between items-center flex-col"
+          class="popular-menu-cards-card p-4 bg-[#F4F5FA] rounded-xl relative"
         >
-          <h3>выграл hz</h3>
+          <div class="flex justify-between absolute top-4 left-4 right-4">
+            <h3>25% OFF</h3>
+            <img src="./Heart.svg" alt="" />
+          </div>
+          <div class="w-full aspect-[28/18]">
+            <img class="w-full h-full object-cover" src="./card-1.png" alt="" />
+          </div>
+          <div class="flex justify-between">
+            <h3 class="text-[24px] font-medium text-[#333]">Tomato</h3>
+            <span>
+              <b class="text-[24px] font-bold text-[#333]">$25/</b
+              ><span class="text-[14px] text-[#333]">KG</span></span
+            >
+          </div>
+          <p class="text-[14px] text-[#333] pt-4 pb-[33px]">
+            It is a long established fact that a reader will be distracted by.
+          </p>
           <button
-            class="w-full rounded-2xl bg-blue-700 text-white text-[18px] font-semibold"
+            class="p-[6.5px_21px] bg-[#18bd4f] rounded-[5px] text-[14px] font-medium text-[#fff]"
           >
-            Занова
+            SHOP NOW
           </button>
         </div>
-      </div>
-    </div>
-
-    <header class="mx-auto max-w-[1200px] w-full justify-between py-5">
-      <h3 class="text-white font-bold text-3xl">PROlab t3 group</h3>
-    </header>
-
-    <div class="flex justify-center items-center flex-1 mt-[20vh]">
-      <div
-        id="box"
-        class="box m-auto w-[400px] h-[400px] rounded-2xl bg-[rgba(0,255,255,0.6)] shadow-2xl grid grid-cols-3 grid-rows-3"
-      >
-        <div id="0" class="box-1 box-0 flex justify-center items-center">
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
+        <div
+          class="popular-menu-cards-card p-4 bg-[#F4F5FA] rounded-xl relative"
+        >
+          <div class="flex justify-between absolute top-4 left-4 right-4">
+            <h3>25% OFF</h3>
+            <img src="./Heart.svg" alt="" />
+          </div>
+          <div class="w-full aspect-[28/18]">
+            <img class="w-full h-full object-cover" src="./card-1.png" alt="" />
+          </div>
+          <div class="flex justify-between">
+            <h3 class="text-[24px] font-medium text-[#333]">Tomato</h3>
+            <span>
+              <b class="text-[24px] font-bold text-[#333]">$25/</b
+              ><span class="text-[14px] text-[#333]">KG</span></span
+            >
+          </div>
+          <p class="text-[14px] text-[#333] pt-4 pb-[33px]">
+            It is a long established fact that a reader will be distracted by.
+          </p>
+          <button
+            class="p-[6.5px_21px] bg-[#18bd4f] rounded-[5px] text-[14px] font-medium text-[#fff]"
+          >
+            SHOP NOW
+          </button>
         </div>
         <div
-          id="1"
-          class="box-2 box-0 flex justify-center items-center border-r border-l"
+          class="popular-menu-cards-card p-4 bg-[#F4F5FA] rounded-xl relative"
         >
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
-        </div>
-        <div id="2" class="box-3 box-0 flex justify-center items-center">
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
+          <div class="flex justify-between absolute top-4 left-4 right-4">
+            <h3>25% OFF</h3>
+            <img src="./Heart.svg" alt="" />
+          </div>
+          <div class="w-full aspect-[28/18]">
+            <img class="w-full h-full object-cover" src="./card-1.png" alt="" />
+          </div>
+          <div class="flex justify-between">
+            <h3 class="text-[24px] font-medium text-[#333]">Tomato</h3>
+            <span>
+              <b class="text-[24px] font-bold text-[#333]">$25/</b
+              ><span class="text-[14px] text-[#333]">KG</span></span
+            >
+          </div>
+          <p class="text-[14px] text-[#333] pt-4 pb-[33px]">
+            It is a long established fact that a reader will be distracted by.
+          </p>
+          <button
+            class="p-[6.5px_21px] bg-[#18bd4f] rounded-[5px] text-[14px] font-medium text-[#fff]"
+          >
+            SHOP NOW
+          </button>
         </div>
         <div
-          id="3"
-          class="box-4 box-0 flex justify-center items-center border-t border-b"
+          class="popular-menu-cards-card p-4 bg-[#F4F5FA] rounded-xl relative"
         >
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
-        </div>
-        <div id="4" class="box-5 box-0 flex justify-center items-center border">
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
+          <div class="flex justify-between absolute top-4 left-4 right-4">
+            <h3>25% OFF</h3>
+            <img src="./Heart.svg" alt="" />
+          </div>
+          <div class="w-full aspect-[28/18]">
+            <img class="w-full h-full object-cover" src="./card-1.png" alt="" />
+          </div>
+          <div class="flex justify-between">
+            <h3 class="text-[24px] font-medium text-[#333]">Tomato</h3>
+            <span>
+              <b class="text-[24px] font-bold text-[#333]">$25/</b
+              ><span class="text-[14px] text-[#333]">KG</span></span
+            >
+          </div>
+          <p class="text-[14px] text-[#333] pt-4 pb-[33px]">
+            It is a long established fact that a reader will be distracted by.
+          </p>
+          <button
+            class="p-[6.5px_21px] bg-[#18bd4f] rounded-[5px] text-[14px] font-medium text-[#fff]"
+          >
+            SHOP NOW
+          </button>
         </div>
         <div
-          id="5"
-          class="box-6 box-0 flex justify-center items-center border-t border-b"
+          class="popular-menu-cards-card p-4 bg-[#F4F5FA] rounded-xl relative"
         >
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
-        </div>
-        <div id="6" class="box-7 box-0 flex justify-center items-center">
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
+          <div class="flex justify-between absolute top-4 left-4 right-4">
+            <h3>25% OFF</h3>
+            <img src="./Heart.svg" alt="" />
+          </div>
+          <div class="w-full aspect-[28/18]">
+            <img class="w-full h-full object-cover" src="./card-1.png" alt="" />
+          </div>
+          <div class="flex justify-between">
+            <h3 class="text-[24px] font-medium text-[#333]">Tomato</h3>
+            <span>
+              <b class="text-[24px] font-bold text-[#333]">$25/</b
+              ><span class="text-[14px] text-[#333]">KG</span></span
+            >
+          </div>
+          <p class="text-[14px] text-[#333] pt-4 pb-[33px]">
+            It is a long established fact that a reader will be distracted by.
+          </p>
+          <button
+            class="p-[6.5px_21px] bg-[#18bd4f] rounded-[5px] text-[14px] font-medium text-[#fff]"
+          >
+            SHOP NOW
+          </button>
         </div>
         <div
-          id="7"
-          class="box-8 box-0 flex justify-center items-center border-r border-l"
+          class="popular-menu-cards-card p-4 bg-[#F4F5FA] rounded-xl relative"
         >
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
+          <div class="flex justify-between absolute top-4 left-4 right-4">
+            <h3>25% OFF</h3>
+            <img src="./Heart.svg" alt="" />
+          </div>
+          <div class="w-full aspect-[28/18]">
+            <img class="w-full h-full object-cover" src="./card-1.png" alt="" />
+          </div>
+          <div class="flex justify-between">
+            <h3 class="text-[24px] font-medium text-[#333]">Tomato</h3>
+            <span>
+              <b class="text-[24px] font-bold text-[#333]">$25/</b
+              ><span class="text-[14px] text-[#333]">KG</span></span
+            >
+          </div>
+          <p class="text-[14px] text-[#333] pt-4 pb-[33px]">
+            It is a long established fact that a reader will be distracted by.
+          </p>
+          <button
+            class="p-[6.5px_21px] bg-[#18bd4f] rounded-[5px] text-[14px] font-medium text-[#fff]"
+          >
+            SHOP NOW
+          </button>
         </div>
-        <div id="8" class="box-9 box-0 flex justify-center items-center">
-          <img class="hidden h-[80%] ooo" src="./o.png" alt="" />
-          <img class="hidden h-[80%] xxx" src="./x.png" alt="" />
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
     <script src="./index.js"></script>
   </body>
 </html>
